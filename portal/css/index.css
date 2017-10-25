@@ -1,0 +1,393 @@
+@charset "utf-8";
+
+.consult{background-color:#04B487;color:#fff;font-size: 13px;height: 42px;}
+.consultHotline{background: #049973;padding:0px 15px;height: 30px;line-height: 30px;margin: 6px 40px 0 0;}
+.consultQq{margin-top: 7.5px;}
+.consultQq>a{display: inline-block;vertical-align: middle;width: 31px;height: 27px;margin-left:5px;background:url("../images/qq.png"/*tpa=http://www.zhilangedu.cn/portal/images/qq.png*/) no-repeat center;}
+
+
+.header{padding:5px 0 8px;}
+.nav{overflow: hidden;margin: 10px 0 0 85px;}
+.nav>li{float: left;padding-right: 5px;}
+.nav>li:last-child{padding-right: 0px;}
+.nav>li>a{display: block;color:#333;font-size: 14px;width: 105px;height: 40px;line-height: 40px;text-align: center;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;}
+.nav>li.active a,.nav>li>a:hover{background:#04B487;color:#fff;}
+.signInUp{margin-top: 8px;}
+.signInUp>a{display: inline-block;width: 90px;height: 40px;line-height: 40px;margin-left: 15px;font-size: 14px;text-align: center;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;}
+.signIn{background:#04B487;color:#fff;}
+.signUp{color:#04B487;background:#fff;border:1px solid #9C9C9C;}
+
+
+.slideBox{/*height: 661px;*/overflow:hidden;position:relative;border-bottom: 1px solid #A3A3A3;}
+.slideBox .slideBoxHd{width:1200px;height:100px;line-height: 100px;margin:0 auto;}
+.slideBox .slideBoxHd li{width:33.33%;float:left;color:#3A3A3A;text-align:center;cursor:pointer;font-size:28px;position: relative;}
+.slideBox .slideBoxHd li.on{color:#04B487;background:url("../images/index1.png"/*tpa=http://www.zhilangedu.cn/portal/images/index1.png*/) no-repeat center 0;background-size: contain;}
+.slideBox .slideBoxHd li:after{content: "/";position: absolute;left:-5px;top:0;color:#3A3A3A;}
+.slideBox .slideBoxHd li:first-child:after{content: "";}
+.slideBox .slideBoxBd{height: 561px;overflow: hidden;}
+.slideBox .slideBoxBd li{height: 561px;overflow:hidden;background:url() no-repeat center;}
+.slideBoxHd>ul{overflow: hidden;}
+.slideBox .slideBoxBd .banner1{background-image: url("../images/banner1.jpg"/*tpa=http://www.zhilangedu.cn/portal/images/banner1.jpg*/);}
+.slideBox .slideBoxBd .banner2{background-image: url("../images/banner2.jpg"/*tpa=http://www.zhilangedu.cn/portal/images/banner2.jpg*/);}
+.slideBox .slideBoxBd .banner3{background-image: url("../images/banner3.jpg"/*tpa=http://www.zhilangedu.cn/portal/images/banner3.jpg*/);}
+
+
+.indexLogin{padding:25px 0;background: url("../images/index2.png"/*tpa=http://www.zhilangedu.cn/portal/images/index2.png*/) repeat;}
+.indexLoginIdentity,.indexLoginForm{padding-left: 45px;}
+.indexLoginIdentity>label{cursor: pointer;margin-right: 25px;font-size: 22px;font-family: simhei;}
+.indexLoginIdentity>label>i{width: 26px;height: 26px;display: inline-block;vertical-align: middle;background:url("../images/hook1.png"/*tpa=http://www.zhilangedu.cn/portal/images/hook1.png*/) no-repeat center -41px;margin: -5px 10px 0 0;}
+.indexLoginIdentity>label.active>i{background-position: center 1px;}
+.indexLoginForm{margin-top: 20px;}
+.indexLoginForm>label{width: 345px;height: 55px;border: 1px solid #B1B3B8;display: inline-block;vertical-align: middle;background:url("../images/form1.png"/*tpa=http://www.zhilangedu.cn/portal/images/form1.png*/) no-repeat 5px center #fff;margin-right: 8px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;}
+.indexLoginForm>label:after{content: "";display: inline-block;vertical-align: middle;width: 0;height: 100%;}
+.indexLoginForm .text{font-size: 18px;width: 260px;border:0 none;color: #767C8B;outline: none;display: inline-block;vertical-align: middle;margin-left: 65px;
+-webkit-box-shadow: 0 0 0 50px #fff inset;
+-moz-box-shadow: 0 0 0 50px #fff inset;
+box-shadow: 0 0 0 50px #fff inset;}
+.indexLoginForm .username{}
+.indexLoginForm>.indexLoginUser{background-position: 18px 12px;}
+.indexLoginForm>.indexLoginPwd{background-position: 18px -73px;}
+.indexRegister,.indexLoginForm>.sbt{width: 135px;height: 55px;line-height: 55px;text-align: center;font-size: 20px;outline:none;cursor:pointer;display: inline-block;vertical-align: middle;border:1px solid #04B487;font-family: "microsoft yahei";margin-right: 8px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+-webkit-box-shadow: 1px 1px 3px #757575;
+-moz-box-shadow: 1px 1px 3px #757575;
+box-shadow: 1px 1px 3px #757575;}
+.indexLoginForm>.sbt{background: #04B487;color: #fff;}
+.indexRegister{color: #04B487;background: #fff;}
+.indexForget{display: inline-block;vertical-align: middle;font-family: "microsoft yahei";font-size: 14px;color:#373737;margin-left: 5px;}
+
+
+.featureTop{padding:60px 0 50px;background:url("../images/hr1.png"/*tpa=http://www.zhilangedu.cn/portal/images/hr1.png*/) no-repeat center bottom;text-align: center;}
+.featureType{font-size: 0;text-align: center;padding:60px 0 55px;}
+.featureType>li{display: inline-block;font-size: 18px;color: #313131;margin-left: 165px;}
+.featureType>li:first-child{margin-left: 0;}
+.featureImg,.featureImg>span{
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;}
+.featureImg{border:1px solid #CBCBCB;cursor: pointer;padding:7px;}
+.active>.featureImg{
+-webkit-box-shadow: 0 2px 16px #6B6B6B;
+-moz-box-shadow: 0 2px 16px #6B6B6B;
+box-shadow: 0 2px 16px #6B6B6B;}
+.featureImg>span{width: 140px;height: 140px;display: block;}
+.wk>.featureImg>span{background:url("../images/wk.png"/*tpa=http://www.zhilangedu.cn/portal/images/wk.png*/) no-repeat center #00ADFF;}
+.wwz>.featureImg>span{background:url("../images/wwz.png"/*tpa=http://www.zhilangedu.cn/portal/images/wwz.png*/) no-repeat center #C47EDB;}
+.wxgzh>.featureImg>span{background:url("../images/wxgzh.png"/*tpa=http://www.zhilangedu.cn/portal/images/wxgzh.png*/) no-repeat center #01CE0D;}
+.featureText{text-align: center;margin-top: 30px;}
+.featureField{width: 800px;margin:0 auto;}
+.featureField>li{display: none;position: relative;height: 577px;}
+.featureField>li.active{display: block;}
+.featureField>li:after{content: "";width: 0px;height: 100%;display: inline-block;vertical-align: middle;}
+.featureField dl{max-width: 480px;overflow: hidden;display: inline-block;vertical-align: middle;}
+.featureField dt{color:#000;font-size: 30px;margin-bottom: 15px;}
+.featureField dd{color:#5B5B5B;font-size: 18px;padding-left: 28px;background: url("../images/index3.png"/*tpa=http://www.zhilangedu.cn/portal/images/index3.png*/) no-repeat left 5px;margin-top:3px;}
+.featureField .featureMore{font-size: 18px;background: none;padding-left: 0;}
+.featureMore>a{display: inline-block;margin-top: 30px;height: 24px;line-height: 23px;padding-right: 30px;background: url("../images/index4.png"/*tpa=http://www.zhilangedu.cn/portal/images/index4.png*/) no-repeat right center;color:#04B487;}
+.featureMore>a:hover{text-decoration: underline;}
+.featureFieldImg{background: url("../images/phone1.png"/*tpa=http://www.zhilangedu.cn/portal/images/phone1.png*/) no-repeat center;position: absolute;right:0;top:0;padding:69px 20px 71px 18px;}
+.featureFieldImg>img{width: 247px;height: 437px;}
+
+
+.advantage{background: url("../images/index2.png"/*tpa=http://www.zhilangedu.cn/portal/images/index2.png*/) repeat;padding:60px 80px;margin-top: 50px;}
+.advantage>ul{width: 1080px;margin:0 auto;}
+.advantageField{margin-top:80px;}
+.advantageField:first-child{margin-top:0px;}
+.advantageImg,.advantageMain{display: inline-block;vertical-align: top;}
+.advantageImg{width: 468px;margin-left: 10px;}
+.advantageImg>img{max-width: 100%;text-align: center;}
+.advantageMain{margin-left: 40px;width: 540px;}
+.advantageMain>dt{font-size: 30px;color:#000;line-height: 75px;padding-left: 85px;padding-bottom: 20px;position: relative;margin-bottom: 20px;}
+.advantageMain>dt:after{content: "";width: 100%;height: 1px;position: absolute;left: 0;bottom:0;background: url("../images/hr2.png"/*tpa=http://www.zhilangedu.cn/portal/images/hr2.png*/) no-repeat left center;}
+.advantageMain>.num1{background:url("../images/one.png"/*tpa=http://www.zhilangedu.cn/portal/images/one.png*/) no-repeat 5px top;}
+.advantageMain>.num2{background:url("../images/two.png"/*tpa=http://www.zhilangedu.cn/portal/images/two.png*/) no-repeat 5px top;}
+.advantageMain>dd{font-size: 18px;color: #5B5B5B;padding-left: 28px;background: url("../images/index3.png"/*tpa=http://www.zhilangedu.cn/portal/images/index3.png*/) no-repeat left 5px;margin-top: 8px;}
+
+
+.footer{color:#fff;font-size: 12px;background: #323232;height: 50px;line-height: 50px;text-align: center;}
+
+
+.login{padding: 165px 0;/*height: 837px;background: url(../images/index8.jpg) no-repeat center;*/}
+.login>.wrap{/*background:url(../images/phone2.png) no-repeat 50px center;*/height: 100%;position: relative;}
+.loginBox{position: absolute;right:15px;top: 40px;border: 1px solid #E4E2DF;background: #fff;
+-webkit-box-shadow: 3px 3px 10px #e1f3ee;
+-moz-box-shadow: 3px 3px 10px #e1f3ee;
+box-shadow: 3px 3px 10px #e1f3ee;}
+.loginBox:after{content: "";position: absolute;top: 24px;bottom: 24px;width: 0;border-left: 1px dashed #E4E2DF;}
+.loginIdentity{overflow: hidden;}
+.loginIdentity>li{font-size: 0;cursor: pointer;height: 76px;min-width: 193px;display: none;}
+.loginIdentity>.loginIdentity1{background: url("../images/switch1.png"/*tpa=http://www.zhilangedu.cn/portal/images/switch1.png*/) no-repeat right center;}
+.loginIdentity>.loginIdentity2{background: url("../images/switch2.png"/*tpa=http://www.zhilangedu.cn/portal/images/switch2.png*/) no-repeat right center;}
+.loginIdentity>li.active{display: block;}
+.loginForm{background: #fff;padding:26px 20px 26px 22px;}
+.loginUser,.loginPwd{display: block;background: url("../images/icon2.png"/*tpa=http://www.zhilangedu.cn/portal/images/icon2.png*/) no-repeat 10px 25px;padding-left: 33px;padding-right:10px;height: 40px;border: 1px solid #E1E1E1;border-radius: 3px;}
+.loginUser:after,.loginPwd:after{content:"";display: inline-block;vertical-align: middle;width: 0;height: 100%;}
+.loginUser{background-position: 11px 12px;margin-bottom: 35px;}
+.loginPwd{background-position: 11px -63px;margin-bottom: 38px;}
+.loginForm .text{font-size: 14px;color: #999;outline: none;line-height: 1;width: 182px;border:0 none;display: inline-block;vertical-align: middle;font-family: "microsoft yahei";
+-webkit-box-shadow: inset 0 0 0 20px #fff;
+-moz-box-shadow: inset 0 0 0 20px #fff;
+box-shadow: inset 0 0 0 20px #fff;}
+.loginOther{color: #7B7F8E;}
+.loginOther>a{color: #7B7F8E;font-size: 14px;}
+.loginOther>a:hover{text-decoration: underline;}
+.loginRemeber{cursor: pointer;font-size: 14px;}
+.loginRemeber>i{border:1px solid #BDBDBD;width: 14px;height: 14px;display: inline-block;vertical-align: middle;margin:-1px 6px 0 0;background: url() no-repeat center;background-size:100% ;}
+.loginRemeber.active>i{background-image: url("../images/hook2.png"/*tpa=http://www.zhilangedu.cn/portal/images/hook2.png*/);}
+.loginForm .sbt{margin-top: 24px;width: 100%;height: 40px;line-height: 40px;text-align: center;background: #04B487;color:#fff;font-size: 16px;letter-spacing: 2px;border:0 none;cursor: pointer;font-family: "microsoft yahei";
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;}
+.loginForm .sbt:hover{opacity: .9;}
+.loginHeader{background: #15AB82;padding: 12px 0 11px;}
+.loginHeaderLink{margin-top:11px;color: #fff;font-size: 0;}
+.loginHeaderLink a{color: #fff;height: 21px;line-height: 21px;border-left: 1px solid #fff;font-size: 16px;padding: 0 5px;}
+.loginHeaderLink a:first-child{border-left: none;}
+.loginHeaderLink a:hover{text-decoration: underline;}
+.loginFooter{color:#454444;font-size: 16px;padding: 30px 0;text-align: center;border-top: 2px #F5F5F5 solid;}
+.loginTitle{font-size: 16px;color: #454444;font-weight: 600;line-height: 1;margin: 8px 0 38px;}
+.loginQrcode{margin-top: 30px;padding: 0 50px 30px 58px;text-align: center;color: #454444;}
+.loginQrcodeImg{width: 146px;height: 146px;margin-bottom: 10px;}
+.loginQrcode .loginOther{margin-top: 55px;}
+.loginSlider{width: 650px;height: 453px;}
+.loginSlider .slideBox{border-bottom: 0;overflow: visible;}
+.loginSlider .slideBox .slideBoxBd li{text-align: center;}
+.loginSlider .slideBox .slideBoxBd li a,
+.loginSlider .slideBox .slideBoxBd li:after{display: inline-block;vertical-align: middle;}
+.loginSlider .slideBox .slideBoxBd li:after{content: "";width: 0;height: 100%;}
+.loginSlider .slideBox .slideBoxBd li img{max-width: 100%;}
+.loginSlider .slideBox,
+.loginSlider .slideBox .slideBoxBd,
+.loginSlider .slideBox .slideBoxBd ul,
+.loginSlider .slideBox .slideBoxBd li{height: 100%;}
+.loginSlider .slideBox .slideBoxHd{width: auto;height: auto;font-size: 0;text-align: center;}
+.loginSlider .slideBox .slideBoxHd li{width: 18px;height: 18px;background: #e7e7e7;margin: 0 12.5px;border-radius: 9px;float: none;display: inline-block;vertical-align: middle;}
+.loginSlider .slideBox .slideBoxHd li.on{width: 27px;}
+.loginSlider .slideBox .slideBoxHd li:after{display: none;}
+
+
+.common-hr{height: 36px;background:url("../images/hr3.jpg"/*tpa=http://www.zhilangedu.cn/portal/images/hr3.jpg*/) no-repeat center;margin:50px auto;}
+
+
+.operateBanner{height: 567px;background: url("../images/banner4.jpg"/*tpa=http://www.zhilangedu.cn/portal/images/banner4.jpg*/) no-repeat center;}
+.operateBanner>.wrap{height: 100%;}
+.operateBanner>.wrap>a{width: 100%;height: 100%;display: block;}
+.operateTitle{font-size: 48px;color:#000;text-align: center;margin-top: 55px;}
+.operateWhy{text-align: center;position: relative;padding-bottom: 50px;}
+.operateWhy>img{margin-left: -20px;}
+.operateWhy>span{position: absolute;font-size: 28px;color:#000;font-family: simhei;}
+.why1{top:10px;left:175px;}
+.why2{top:10px;right:130px;}
+.why3{top:375px;right:65px;}
+.why4{top:535px;left:320px;}
+.why5{top:258px;left:0px;}
+.operateHow{text-align: center;padding-bottom: 140px;}
+.operateHow>img{margin-left: 45px;}
+
+
+.contactBanner{height: 209px;background:url("../images/banner5.jpg"/*tpa=http://www.zhilangedu.cn/portal/images/banner5.jpg*/) no-repeat center;}
+.contact{font-family: "microsoft yahei";color: #313131;font-size: 14px;}
+.contact>.common-hr{margin:40px auto 20px;}
+.common-title{height: 70px;line-height: 70px;font-size: 28px;border-bottom: 1px solid #D3D3D3;position: relative;}
+.common-title:after{content: "";position: absolute;bottom:0px;left: 0;width: 126px;height: 2px;background: #1CBCA0;}
+.contact p{margin-top: 20px;}
+.contactField{margin-bottom: 30px;padding:0 170px 0 70px;}
+.contactValues{overflow: hidden;margin-top: 20px;}
+.contactValues>li{width: 350px;margin-left: 60px;float: left;}
+.contactValues>li:first-child{margin-left: 0;}
+.contactValues>li:nth-child(2){width: 200px;}
+.contactValues>li:nth-child(3){width: 280px;}
+.contactValues>li>p{margin-top: 15px;}
+.contactValuesTitle{font-size: 28px;color: #01AA8D;}
+.contactInfo{padding-bottom: 40px;}
+.contactInfo>p{margin-top: 10px;}
+.contactInfo .contactCompany{font-size: 18px;margin-top: 30px;}
+
+
+.joinworkBanner{height: 321px;background:url("../images/banner6.jpg"/*tpa=http://www.zhilangedu.cn/portal/images/banner6.jpg*/) no-repeat center;}
+.joinwork{font-family: simhei;}
+.joinworkTop{font-size: 26px;color:#000;text-align: center;}
+.joinworkTop>span{color:#00AEFF;}
+.joinworkField,.joinwork .common-title{margin: 0 20px;}
+.joinworkField{padding-bottom: 20px;position: relative;}
+.joinworkField:before{content:"";position: absolute;top:10%;left:50%;width: 1px;height: 80%;background: #CDCDCD;}
+.joinworkField>li{width: 50%;float: left;}
+.joinworkForm{padding-top: 20px;}
+.joinworkForm p{font-size: 22px;color: #494949;text-align: center;}
+.joinworkLabel{display: block;margin: 20px 0 0 60px;font-size: 22px;}
+.joinworkLabel>.text{font-size: 20px;color:#ccc;padding:5px;outline: none;width: 320px;}
+.joinworkForm .sbt{width: 190px;height: 60px;line-height: 60px;text-align: center;font-size: 22px;color: #fff;background: #00AEFF;cursor: pointer;border:0 none;margin:50px auto 0;display: block;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;}
+.joinworkForm .sbt:hover{opacity: .9;}
+.joinworkTel,.joinworkTeacher{margin-left: 40px;}
+.joinworkTel{padding:20px 0 20px 60px;color:#6B6B6B;font-size: 22px;background: url("../images/phone3.png"/*tpa=http://www.zhilangedu.cn/portal/images/phone3.png*/) no-repeat left center;border-bottom: 1px solid #CDCDCD;}
+.joinworkTelnum{color:#4BA5D3;font-size: 32px;}
+.joinworkTeacher{font-family: "microsoft yahei";}
+.joinworkTeacher>dd{margin-top: 25px;overflow: hidden;}
+.joinworkTeachImg{margin-left: 20px;}
+.joinworkTeachContent{font-size: 14px;color: #666;padding-left: 165px;}
+.joinworkTeachTop{margin-top: 5px;}
+.joinworkTeachName{font-size: 20px;color: #000;}
+.joinworkTeachPosition{font-size: 16px;color:#999;margin-left: 3px;}
+.joinworkTeachPhone{margin-top: 25px;}
+
+
+.caseBanner{height: 209px;background:url("../images/banner7.jpg"/*tpa=http://www.zhilangedu.cn/portal/images/banner7.jpg*/) no-repeat center;}
+.caseIntro{font-size: 26px;margin:0 50px;font-weight: normal;text-indent: 52px;line-height: 1.4;}
+.caseData{margin:50px 50px 0;overflow: hidden;}
+.caseData>li{width: 310px;border:1px solid #C6C6C6;border-top: 10px solid #C6C6C6;float: left;text-align: center;padding: 15px 0 20px;margin-left: 80px;}
+.caseData>li:first-child{margin-left: 0;}
+.caseData>li>img{border:8px solid #E4E4E4;overflow: hidden;width: 215px;height: 215px;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;}
+.caseDataName{font-size: 22px;color: #4E4E4E;margin-top: 25px;}
+.caseDataName>span{color: #F8931F;}
+.caseDataDes{font-size: 12px;color: #696969;text-align: left;margin:10px 20px 0;height: 55px;}
+.caseData>.caseDataJyj{border-top-color: #FF0000;}
+.caseData>.caseDataSchool{border-top-color: #00AEFF;}
+.caseData>.caseDataOther{border-top-color: #FF7E00;}
+.caseField{border:1px solid #C6C6C6;position: relative;font-family: simhei;overflow: hidden;padding:35px 0;margin:50px 50px 15px;}
+.caseFieldType{position: absolute;top:0;left:0;width: 120px;height: 55px;line-height: 55px;text-align: center;font-size: 24px;background: #FC9C3D;color: #fff;}
+.caseFieldInfo{float: left;margin:160px 0 0 110px;}
+.caseFieldImg{width: 200px;height: 180px;text-align: center;}
+.caseFieldImg:after{content:"";width: 0;height: 100%;display: inline-block;vertical-align: middle;}
+.caseFieldImg>img{display: inline-block;vertical-align: middle;max-width: 100%;}
+.caseFieldText{color: #22A2F4;font-size: 24px;text-align: center;margin-top: 10px;}
+.caseFieldPhone{float: left;padding:63px 20px 64px 19px;background: url("../images/phone4.png"/*tpa=http://www.zhilangedu.cn/portal/images/phone4.png*/) no-repeat center;margin-left: 110px;}
+.caseFieldPhone>img{width: 208px;height: 373px;}
+
+.caseMore{margin:0 50px;padding-bottom: 75px;}
+.caseMoreTitle{color: #22A2F4;font-size: 36px;font-family: simhei;}
+.caseMoreList{margin-top: 40px;}
+.caseMoreList ul{overflow: hidden;}
+.caseMoreList li{float: left;width: 165px;height: 165px;border: 1px solid #C6C6C6;text-align: center;margin:0 8px;}
+/*.caseMoreList li:first-child{margin-left: 0;}*/
+.caseMoreImg{height: 125px;}
+.caseMoreImg>img{display: inline-block;vertical-align: middle;max-height: 90%;max-width: 90%;}
+.caseMoreImg:after{content: "";display: inline-block;vertical-align: middle;width: 0;height: 100%;}
+.caseMoreText{color:#fff;font-size: 22px;background: #55606E;height: 40px;line-height: 40px;font-family: simhei;}
+
+
+.productBanner{height: 207px;background:url("../images/banner8.jpg"/*tpa=http://www.zhilangedu.cn/portal/images/banner8.jpg*/) no-repeat center;}
+.product{padding:25px 0 70px;}
+.productNavbar{margin-left: 10px;width: 175px;text-align: center;}
+.productNavbar>li{margin-bottom: 10px;border:1px solid #E0E0E0;height: 90px;background: #F5F5F5;cursor: pointer;font-family: "microsoft yahei";overflow: hidden;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;}
+.productNavTop{position: relative;}
+.productNavImg{background: url("../images/icon1.png"/*tpa=http://www.zhilangedu.cn/portal/images/icon1.png*/) no-repeat;width: 45px;height: 45px;margin: 10px auto 0;}
+.editor .productNavImg{background-position: -90px 5px;}
+.child .productNavImg{background-position: -93px -94px;}
+.material .productNavImg{background-position: -95px -200px;}
+.vweb .productNavImg{background-position: -90px -322px;}
+.vcourse .productNavImg{background-position: -93px -436px;}
+.venroll .productNavImg{background-position: -96px -554px;}
+.vsurvey .productNavImg{background-position: -97px -672px;}
+.vvote .productNavImg{background-position: -99px -782px;}
+.vcheck .productNavImg{background-position: -102px -897px;}
+.vcheckin .productNavImg{background-position: -95px -1009px;}
+.productNavText{color: #717171;font-size: 18px;}
+.productNavTag{display: none;color: #22A2F4;font-size: 18px;height: 65px;line-height: 65px;background: url("../images/circle1.png"/*tpa=http://www.zhilangedu.cn/portal/images/circle1.png*/) no-repeat 15px center;/*text-indent: 10px;*/text-indent: 35px;text-align: left;}
+
+.productNavbar>li.active{border-bottom: 15px solid #707070;height: auto;}
+.productNavbar>li.active .productNavTop{height: 60px;background: #22A2F4;}
+.productNavbar>li.active .productNavTop:before{content: "";display: inline-block;vertical-align: middle;width: 0;height: 100%;}
+.productNavbar>li.active .productNavTop:after{content: "";position: absolute;bottom:6px;left:50%;margin-left:-65px;display: inline-block;vertical-align: middle;width: 130px;height: 1px;background: #3C75B0;}
+.productNavbar>li.active .productNavImg{display: inline-block;vertical-align: middle;margin-top: 0;}
+.active.editor .productNavImg{background-position: 11px 5px;}
+.active.child .productNavImg{background-position: 7px -93px;}
+.active.material .productNavImg{background-position: 5px -200px;}
+.active.vweb .productNavImg{background-position: 10px -322px;}
+.active.vcourse .productNavImg{background-position: 6px -438px;}
+.active.venroll .productNavImg{background-position: 2px -553px;}
+.active.vsurvey .productNavImg{background-position: 6px -674px;}
+.active.vvote .productNavImg{background-position: 9px -782px;}
+.active.vcheck .productNavImg{background-position: 4px -898px;}
+.active.vcheckin .productNavImg{background-position: 10px -1010px;}
+.productNavbar>li.active .productNavText{display: inline-block;vertical-align: middle;color:#fff;font-size: 20px;line-height: 1;}
+.productNavbar>li.active .productNavTag{display: block;}
+
+.productMain{width: 970px;border: 1px solid #E0E0E0;background: #F5F5F5;margin-right: 25px;}
+.productMain>li{display: none;}
+.productMain>li.active{display: block;}
+.productMain>li.editor{padding-bottom: 210px;}
+.productMain>li.material{padding-bottom: 190px;}
+.productMain>li.vweb{padding-bottom: 215px;}
+.productMain>li.vcourse{padding-bottom: 30px;}
+.productMain>li.venroll{padding-bottom: 225px;}
+.productMain>li.vsurvey{padding-bottom: 210px;}
+.productMain>li.vvote{padding-bottom: 250px;}
+.productMain>li.vcheck{padding-bottom: 240px;}
+.productMain>li.vcheckin{padding-bottom: 190px;}
+.productMainHeader{border-bottom: 3px solid #22A2F4;}
+.productMainIcon,.productMainTag{height: 55px;line-height: 55px;display: inline-block;vertical-align: middle;}
+.productMainIcon{width: 55px;background: url("../images/icon1.png"/*tpa=http://www.zhilangedu.cn/portal/images/icon1.png*/) no-repeat;}
+.editor .productMainIcon{background-position: -179px 10px;}
+.child .productMainIcon{background-position: -175px -88px;}
+.material .productMainIcon{background-position: -180px -194px;}
+.vweb .productMainIcon{background-position: -176px -318px;}
+.vcourse .productMainIcon{background-position: -179px -432px;}
+.venroll .productMainIcon{background-position: -181px -549px;}
+.vsurvey .productMainIcon{background-position: -178px -668px;}
+.vvote .productMainIcon{background-position: -173px -777px;}
+.vcheck .productMainIcon{background-position: -178px -895px;}
+.vcheckin .productMainIcon{background-position: -175px -1005px;}
+.productMainTag{color: #22A2F4;font-size: 20px;}
+.productMainContent{padding:0 10px 0 20px;}
+.productMainContent dd{margin-top: 50px;}
+.productMainTexts,.productMainImg{display: inline-block;vertical-align: middle;}
+.productMainTexts{width: 340px;}
+.productMainImg+.productMainTexts{margin-left: 30px;}
+.productMainTexts+.productMainImg{margin-left: 10px;}
+.productMainImg>img{max-width: 565px;}
+.productMainTitle{color:#272636;font-size: 24px;padding-bottom: 3px;}
+.productMainDes{font-size: 18px;color: #6F6F6F;line-height: 2;}
+.productMainTips{font-size: 18px;color: #22A2F4;text-align: center;margin: 0;padding:105px 0;}
+
+
+
+.reminder{background: #04B487;position: fixed;right:0;bottom:0;z-index:8100;width: 400px;height: 255px;overflow: hidden;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow: 0px 0px 8px #202020;
+-moz-box-shadow: 0px 0px 8px #202020;
+box-shadow: 0px 0px 8px #202020;}
+.reminderHeader{text-indent:55px;height: 45px;line-height: 45px;font-size: 20px;color: #fff;background: url("../images/reminder.png"/*tpa=http://www.zhilangedu.cn/portal/images/reminder.png*/) no-repeat 15px 9px;}
+.reminderMain{background: #fff;margin: 0 2px 2px;padding: 30px 25px 14px;}
+.reminderTitle{font-size: 24px;color: #3E3E3E;height: 24px;line-height: 1;text-align: center;font-family: simhei;}
+.reminderDes{font-size: 18px;color: #888;line-height: 24px;text-indent: 36px;height: 120px;overflow: hidden;margin-top: 20px;}
+.reminderClose{position: absolute;top:0;right:0;width: 45px;height: 45px;line-height: 45px;text-align: center;color: #fff;cursor: pointer;background: url("../images/reminder.png"/*tpa=http://www.zhilangedu.cn/portal/images/reminder.png*/) no-repeat 16px -40px;}
+.reminderClose:hover{background-color: #D0996F;}
+
+
+/* 到期提醒弹框 */
+.expiration_reminder{display: none;width: 100%;heigt:100%;}
+.expiration_reminder .expiration_reminder_bigdiv{width: 100%;height: 100%;z-index:8888;position:fixed;left: 0;top:0;opacity: 0.5;background-color: #D0D0D0;}
+.expiration_reminder .expiration_reminder_div{width: 365px;height: 200px;top:32%;left:38%;background-color:white;position:fixed;z-index:9999;-webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px;}
+.expiration_reminder .expiration_reminder_div .expiration_reminder_top{height: 6px;width: 100%;background-color: #04B486;-webkit-border-radius: 6px 6px 0 0;-moz-border-radius: 6px 6px 0 0;border-radius: 6px 6px 0 0;}
+.expiration_reminder .expiration_reminder_div p{font-size: 18px;width: 55px;margin: 14px 0 0 28px;float: left;}
+.expiration_reminder .expiration_reminder_div .close{background: url("../images/close.png"/*tpa=http://www.zhilangedu.cn/portal/images/close.png*/);width:15px;height:15px;float: right;margin: 18px 21px 0 0;}
+.expiration_reminder .expiration_reminder_div .close:HOVER{cursor: pointer;}
+.expiration_reminder .expiration_reminder_div img{position: relative;clear: both;top:67px;left:-30px;}
+.expiration_reminder .expiration_reminder_div .content{font-size: 16px;position: relative;top:0px;left:0px;width:245px;height:44px;text-align: left;margin: 35px 0 0 0;color:#6E6E6E;}
+.expiration_reminder .expiration_reminder_div input{width: 83px;height:33px;line-height: 33px;font-size: 16px;border: 1px solid #6E6E6E;text-align: center;background-color: #fff;cursor: pointer;border-radius:3px;
+													position: relative;top:137px;color:#6E6E6E;}
+.expiration_reminder .expiration_reminder_div .confirm{border: 1px solid #04B486;color:#04B486;margin-left: -10px;margin-right: 33px;}
+
+

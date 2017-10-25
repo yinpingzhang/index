@@ -1,0 +1,1344 @@
+/*��������*/
+
+.mom,.sub2,.nav a,.nav li{
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.wp{
+	width: 960px;
+	margin: 0 auto;
+}
+body{
+	font-family: "΢���ź�";
+	color:#313131;
+}
+.nav,#fd{
+	font-family: "����";
+}
+a{
+	color:#313131;
+}
+a:hover{
+	color:#1CBCA0;
+}
+.tit-a1{
+	/* padding-top: 50px; */
+	margin-bottom: 20px;
+	/* height: 60px; */
+	background:url("../images/t1.jpg"/*tpa=http://www.zhilangedu.cn/images/t1.jpg*/) repeat-x left bottom;
+	margin-top:20px;
+}
+.tit-a1 strong{
+	display: inline-block;*display: inline;*zoom: 1;
+	/* height: 58px; */
+    /* font-size: 28px; */
+    font-weight: normal;	
+	border-bottom: 3px solid #1CBCA0;
+	font-size: 30px;
+	font-family:microsoft YaHei;
+}
+.btn1{
+    margin-top: 3px;
+	width: 70px;
+	height: 35px;
+	line-height:35px;
+	display: block;
+	text-align: center;
+	color:#04b487;
+	border:1px solid #04b487;
+	border-radius:5px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.btn1:hover{
+	background:#04b487;
+	color:#fff;
+}
+/*ͷ��*/
+.head{
+	height: 80px;
+	/* padding-top: 10px; */
+	padding-top: 15px;
+}
+.hdr{
+	margin-top: 10px;
+}
+.hdr ul li{
+	float: left;
+	/* padding:10px 20px; */
+	padding:10px 20px 0 20px;
+	background:url("../images/w-pp.jpg"/*tpa=http://www.zhilangedu.cn/images/w-pp.jpg*/) no-repeat right center;
+}
+.hdr ul li a{
+	color:#04b487;
+	font-size: 14px;
+
+}
+.p-color{
+	color:#959595;
+    padding-top: 1px;
+    padding-bottom:2px;
+}
+.p-color span{
+	font-size: 12px;
+
+}
+/*����*/
+.nav{
+	background: #323232;
+	height: 45px;
+}
+.nav li{
+	width: 140px;
+	float: left;
+	border-right:1px solid #424242 ;
+}
+.nav li a{
+	height: 45px;
+	line-height: 45px;
+	font-size: 14px;
+	color:#bababa;
+	text-align: center;
+	display: block;
+	font-weight: bold;
+    background: #323232;
+
+}
+.nav li.on a,.nav li a:hover{
+	color:#555555;
+	background: url("../images/1px.jpg"/*tpa=http://www.zhilangedu.cn/images/1px.jpg*/) repeat-x;
+}
+/*�ײ�*/
+#fd{
+	text-align: center;
+	height: 35px;
+	background:#323232;
+	padding-top: 15px;
+	text-align: center;
+}
+#fd p{
+    color:#8e8e8e;
+}
+/*���ݲ���*/
+#bd{
+	min-height:500px;
+}
+/*��ҳbanner*/
+.banner-in{
+	height: 350px;
+
+	background:url("../images/banner-about.jpg"/*tpa=http://www.zhilangedu.cn/images/banner-about.jpg*/) no-repeat center top;
+}
+.banner-in a,#banner .bd ul li .pr a{
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+	position: absolute;
+	left:458px;
+	top:241px;
+	width: 120px;
+	height: 40px;
+	line-height:40px;
+	font-size: 16px;
+	text-align: center;
+	border-radius: 5px;
+	background:#fff;
+    display: block;
+}
+.banner-in .a-regist{
+	left:592px;
+}
+.ban-pro{
+    background: url("../images/pro_in.jpg"/*tpa=http://www.zhilangedu.cn/images/pro_in.jpg*/) center top no-repeat;
+    height: 350px;
+}
+.help-pro{
+    background: url("../images/help-ban.png"/*tpa=http://www.zhilangedu.cn/images/help-ban.png*/) center top no-repeat;
+    height: 293px;
+}
+
+#banner .bd ul .li1 .a-know{
+    top:187px;
+    left:578px;
+    color:#676767;
+}
+#banner .bd ul .li1 .a-in1{
+    top:187px;
+    left:715px;
+    color:#676767;
+}
+#banner .bd ul .li2 .a-know{
+    top:307px;
+    left:410px;
+    color:#368be6;
+}
+#banner .bd ul .li2 .a-in1{
+    top:307px;
+    left:547px;
+    color:#368be6;
+}
+#banner .bd ul .li3 .a-know{
+    top:366px;
+    left:430px;
+    color:#cc4848;
+}
+#banner .bd ul .li3 .a-in1{
+    top:366px;
+    left:567px;
+    color:#cc4848;
+}
+/*banner����*/
+.fullSlide{ min-width:1000px; position:relative;  height:454px; overflow:hidden;   }  
+.fullSlide .bd{ position:relative; z-index:0;  }  
+.fullSlide .bd ul{ } 
+.fullSlide .bd li{  height:454px; }  
+.fullSlide .bd li .siteWidth{ width:1000px; position:relative;  margin:0 auto;  height:454px;  }  
+.fullSlide .bd li a{ position:absolute; width:100%; height:454px; display:block; z-index:1;}  
+.fullSlide .hd{ width:100%;  position:absolute; z-index:10; bottom:0; left:0; height:30px; line-height:30px; text-align: right; } 
+.fullSlide .hd ul li{opacity: 0.5; 
+    cursor:pointer; display:inline-block; *display:inline; zoom:1; width:11px; height:11px; 
+  margin:4px;  line-height:9999px;
+background: #fff;
+} 
+.fullSlide .hd ul .on{ width: 50px;opacity: 1;}
+
+
+    
+
+/*��Ʒ�ص� HBW 06-10*/
+.box-pro {
+    width: 960px; 
+    overflow: hidden;
+}
+.ul-pro {
+    width: 1120px;
+}
+.ul-pro li{
+    float: left;
+    height: 250px;
+    margin-right: 49px;
+    text-align: center;
+}
+
+.ul-pro h3{
+    padding-top: 22px;
+}
+.ul-pro h3 a{
+    color: #313131;
+    font-size: 16px;
+}
+.ul-pro p{
+    color: #313131;
+    font-size: 14px;
+}
+.ul-pro .ico{
+    width: 150px;
+    height: 150px;
+    display: block;
+    border: 1px solid #e7e7e7;
+    background: url("../images/ico-01.jpg"/*tpa=http://www.zhilangedu.cn/images/ico-01.jpg*/) no-repeat center;
+    border-radius:10px;
+} 
+.ul-pro .ico-02{
+    background-image: url("../images/ico-02.jpg"/*tpa=http://www.zhilangedu.cn/images/ico-02.jpg*/);
+}
+.ul-pro .ico-03{
+    background-image: url("../images/ico-03.jpg"/*tpa=http://www.zhilangedu.cn/images/ico-03.jpg*/);
+}
+.ul-pro .ico-04{
+    background-image: url("../images/ico-04.jpg"/*tpa=http://www.zhilangedu.cn/images/ico-04.jpg*/);
+}
+.ul-pro .ico-05{
+    background-image: url("../images/ico-05.jpg"/*tpa=http://www.zhilangedu.cn/images/ico-05.jpg*/);
+}
+.ul-pro .ico-06{
+    background-image: url("../images/ico-06.jpg"/*tpa=http://www.zhilangedu.cn/images/ico-06.jpg*/);
+}
+.ul-pro .ico-07{
+    background-image: url("../images/ico-07.jpg"/*tpa=http://www.zhilangedu.cn/images/ico-07.jpg*/);
+}
+.ul-pro .ico-08{
+    background-image: url("../images/ico-08.jpg"/*tpa=http://www.zhilangedu.cn/images/ico-08.jpg*/);
+}
+.ul-pro .ico-09{
+    background-image: url("../images/ico-09.jpg"/*tpa=http://www.zhilangedu.cn/images/ico-09.jpg*/);
+}
+.ul-pro .ico-10{
+    background-image: url("../images/ico-10.jpg"/*tpa=http://www.zhilangedu.cn/images/ico-10.jpg*/);
+}
+.ul-pro .ico-11{
+    background-image: url("../images/ico-11.jpg"/*tpa=http://www.zhilangedu.cn/images/ico-11.jpg*/);
+}
+.ul-pro .ico-12{
+    background-image: url("../images/ico-12.jpg"/*tpa=http://www.zhilangedu.cn/images/ico-12.jpg*/);
+}
+.ul-pro .ico-13{
+    background-image: url("../images/ico-13.jpg"/*tpa=http://www.zhilangedu.cn/images/ico-13.jpg*/);
+}
+.ul-pro .ico-14{
+    background-image: url("../images/ico-14.jpg"/*tpa=http://www.zhilangedu.cn/images/ico-14.jpg*/);
+}
+.ul-pro .ico-15{
+    background-image: url("../images/ico-15.jpg"/*tpa=http://www.zhilangedu.cn/images/ico-15.jpg*/);
+}
+
+/*��ҳ HBW 06-10*/
+.index-pro{
+    width: 960px;
+    margin: 0px auto;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+.index-pro h2 {
+    font-size: 30px;
+    background: url("../images/t1.jpg"/*tpa=http://www.zhilangedu.cn/images/t1.jpg*/) repeat-x left bottom;
+    text-align: center;
+}
+
+.index-pro h2 strong {
+    display: inline-block;*display: inline;*zoom: 1;
+    border-bottom: 2px solid #04b487;
+    height: 72px;
+    font-weight: normal;
+}
+
+.index-pro h2 span{
+    color: #04b487;
+}
+.index-pro li{
+    float: left;
+    padding-top: 50px;
+}
+.index-pro li.li1{
+    padding-left: 100px;
+}
+.index-pro li.li2{
+    padding-left: 80px;
+}
+.index-pro li.li3{
+    padding-left: 70px;
+}
+.index-pro li a{
+    width: 190px;
+    display: block;
+    padding-top: 145px;
+    /* font-size: 16px; */
+    font-size: 18px;
+    background: url("../images/index-pro-01.jpg"/*tpa=http://www.zhilangedu.cn/images/index-pro-01.jpg*/) no-repeat center top;
+}
+.index-pro li.li2 a{
+    background-image: url("../images/index-pro-02.jpg"/*tpa=http://www.zhilangedu.cn/images/index-pro-02.jpg*/);
+}
+.index-pro li.li3 a{
+    background-image: url("../images/index-pro-03.jpg"/*tpa=http://www.zhilangedu.cn/images/index-pro-03.jpg*/);
+}
+.index-pro a{
+    color: #313131;
+    font-size: 14px;
+    text-align: center;
+}
+.h40{
+    height: 40px;
+    overflow: hidden;
+    clear: both;
+}
+.indexFunc{text-align: center;}
+.indexFunc>li{margin-left:140px;}
+.indexFuncImg{width: 127px;vertical-align: top;}
+.indexFuncText{font-size:18px;margin-top:15px;letter-spacing:1px;}
+.proTitle{font-size:36px;margin-top:45px;text-align: center;}
+.titNum{color:#04B487;font-size:50px;font-family:Microsoft YaHei;margin-right:15px;}
+.proIntro{color:#313131;font-size:24px;font-family:Microsoft YaHei;text-indent:48px;padding:0 40px;margin:35px 0 30px 0;}
+.proStep3Img{margin-top:20px;}
+.proStep3Img>img{margin-left:55px;}
+.proStep3Img>img:first-child{margin-left:0;}
+.proSlider{position: relative;}
+.proSlider ul{position: relative;height: 350px;}
+.proSlider li{position: absolute;width: 192px;height: 336px;top:0;left:0;right:0;z-index:0;zoom:1;cursor:pointer;
+-webkit-box-shadow: 0 0 10px #999;
+-moz-box-shadow: 0 0 10px #999;
+box-shadow: 0 0 10px #999;}
+.proSlider li img{width: 100%;height: 100%;}
+.proSlider .prev,.proSlider .next{position: absolute;top:150px;width:41px;height: 47px;background:url() no-repeat center;cursor:pointer;z-index:1;}
+.proSlider .prev{left:0;background-image:url("../images/arrow1.png"/*tpa=http://www.zhilangedu.cn/images/arrow1.png*/);}
+.proSlider .next{right:0;background-image:url("../images/arrow2.png"/*tpa=http://www.zhilangedu.cn/images/arrow2.png*/);}
+.proSlider .prev:hover{background-image:url("../images/arrow3.png"/*tpa=http://www.zhilangedu.cn/images/arrow3.png*/);}
+.proSlider .next:hover{background-image:url("../images/arrow4.png"/*tpa=http://www.zhilangedu.cn/images/arrow4.png*/);}
+
+.updateTitle{font-size:30px;color:#333333;margin-top:35px;text-indent:35px;}
+.updateAxis{position: relative;padding-bottom:50px;margin-top:10px;}
+.updateAxis:after{content:"";position: absolute;top:0px;left:50%;margin-left:-1.5px;z-index:-1;width: 3px;height: 100%;background:#1D9CBB;}
+.updateYear{margin-bottom:50px;font-family: microsoft YaHei;}
+.updateYearText{text-align: center;width: 95px;height: 95px;line-height: 95px;background:#04B487;color:#fff;font-size:24px;margin:0 auto;font-weight:normal;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;}
+.updateList{font-size:18px;}
+.updateList li{position: relative;margin-top:50px;}
+.updateDate,.updateContent{background:#360;color:#fff;position: relative;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;}
+.updateNum{background:#360;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;}
+.updateDate{padding:0 13px;min-width: 126px;height: 40px;line-height: 40px;text-align: center;float: left;margin-left:328px;}
+.updateNum{font-size:16px;width: 25px;height: 25px;line-height: 25px;text-align: center;color:#fff;position: absolute;top:7.5px;left:50%;margin-left:-12.5px;}
+.updateContent{padding:18px;width: 330px;line-height: 23px;float: left;margin-left:60px;white-space: pre-line;}
+.updateDate:after,.updateContent:after{content:"";position: absolute;top:0px;border:8px solid transparent;}
+
+.updateList li:nth-last-child(odd) .updateDate{margin-right: 330px;}
+.updateList li:nth-last-child(odd) .updateContent{margin-right: 60px;}
+.updateList li:nth-last-child(odd) .updateContent,
+.updateList li:nth-last-child(odd) .updateDate{float:right;margin-left:0;}
+
+.updateList li:nth-last-child(4n+1) .updateContent{background:#45C697;}
+.updateList li:nth-last-child(4n+1) .updateNum,
+.updateList li:nth-last-child(4n+1) .updateDate{background:#45C65D;}
+.updateList li:nth-last-child(4n+1) .updateDate:after{left:-19px;top:12px;border-right:15px solid #45C65D;}
+.updateList li:nth-last-child(4n+1) .updateContent:after{right:-25px;top:8px;border-left:20px solid #45C697;}
+
+.updateList li:nth-last-child(4n+2) .updateContent{background:#F98846;}
+.updateList li:nth-last-child(4n+2) .updateNum,
+.updateList li:nth-last-child(4n+2) .updateDate{background:#C96A33;}
+.updateList li:nth-last-child(4n+2) .updateDate:after{right:-19px;top:12px;border-left:15px solid #C96A33;}
+.updateList li:nth-last-child(4n+2) .updateContent:after{left:-25px;top:8px;border-right:20px solid #F98846;}
+
+.updateList li:nth-last-child(4n+3) .updateContent{background:#AB79FF;}
+.updateList li:nth-last-child(4n+3) .updateNum,
+.updateList li:nth-last-child(4n+3) .updateDate{background:#5C627F;}
+.updateList li:nth-last-child(4n+3) .updateDate:after{left:-19px;top:12px;border-right:15px solid #5C627F;}
+.updateList li:nth-last-child(4n+3) .updateContent:after{right:-25px;top:8px;border-left:20px solid #AB79FF;}
+
+.updateList li:nth-last-child(4n+4) .updateContent{background:#2DACB9;}
+.updateList li:nth-last-child(4n+4) .updateNum,
+.updateList li:nth-last-child(4n+4) .updateDate{background:#1795B7;}
+.updateList li:nth-last-child(4n+4) .updateDate:after{right:-19px;top:12px;border-left:15px solid #1795B7;}
+.updateList li:nth-last-child(4n+4) .updateContent:after{left:-25px;top:8px;border-right:20px solid #2DACB9;}
+
+/*��������*/
+.box-txt p{
+    color: #313131;
+    padding-bottom: 25px;
+    font-size: 14px;
+}
+.box-txt li{
+    float: left;
+}
+.box-txt li h3{
+    color: #01aa8d;
+    padding-bottom: 16px;
+    font-size: 26px;
+    font-weight: normal;
+}
+.box-txt ul .li-01{
+    width: 345px;
+}
+.box-txt ul .li-02{
+    width: 191px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.box-txt ul .li-03{
+    width: 282px;
+}
+.box-txt h4{
+    font-size: 18px;
+    color: #313131;
+    font-weight: normal;
+    padding-bottom: 11px;
+}
+.box-txt .p-01{
+   padding-bottom: 10px;
+}
+/*������� HBW 06-10*/
+.ul-step{
+    width: 1050px;
+}
+.ul-step li{
+    float: left;
+    color: #313131;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    border: 1px solid #e7e7e7;
+    border-radius:10px;
+    text-align: center;
+    margin-right: 18px;
+    padding-left: 15px;
+    font-size: 16px;
+    background: url("../images/ul-step-01.jpg"/*tpa=http://www.zhilangedu.cn/images/ul-step-01.jpg*/) no-repeat 40px;
+}
+.ul-step .li2{
+    background-image: url("../images/ul-step-02.jpg"/*tpa=http://www.zhilangedu.cn/images/ul-step-02.jpg*/);
+    width: 215px;
+    margin-right: 10px;
+}
+.ul-step .li3{
+    background-image: url("../images/ul-step-03.jpg"/*tpa=http://www.zhilangedu.cn/images/ul-step-03.jpg*/);
+    width: 223px;
+    margin-right: 12px;
+}
+.ul-step .li4{
+    background-image: url("../images/ul-step-04.jpg"/*tpa=http://www.zhilangedu.cn/images/ul-step-04.jpg*/);
+    width: 179px;
+    padding-left: 50px;
+}
+
+
+/* zjp */
+.h50{
+    height:50px;
+}
+
+.bg-z{
+    background:url("../images/bg-z.jpg"/*tpa=http://www.zhilangedu.cn/images/bg-z.jpg*/) repeat-x left top;
+    padding-top: 5px;
+}
+
+.bg-h{
+    background:#f6f5f4;
+    overflow: hidden;
+}
+
+/* �л������� */
+
+.box-tab li{
+    float: left;
+    margin-right: 30px;
+    width: 300px;
+}
+
+.box-tab{
+    overflow: hidden;
+    width: 990px;
+}
+
+.box-tab li a{
+    display: inline-block;*display: inline;*zoom: 1;
+    width: 300px;
+    height: 59px;
+    line-height: 59px;
+    color:#313131;
+    text-align: center;
+    font-family:"΢���ź�","Microsoft Yahei";
+    font-size: 24px;
+    background:#ebebeb;
+}
+
+
+.box-tab li.hover a,.box-tab li a:hover{
+    background:#04b487;
+    color:#fff;
+}
+
+/* �л���ҳ��a */
+.box-tab-a .bt{
+    font-family:"΢���ź�","Microsoft Yahei";
+}
+
+.box-tab-a1 .bt{
+    width:850px;
+}
+
+.box-tab-a .bt em{
+    display: inline-block;*display: inline;*zoom: 1;
+    width: 65px;
+    height: 98px;
+    background:url("../images/tab-1.jpg"/*tpa=http://www.zhilangedu.cn/images/tab-1.jpg*/) no-repeat;
+    float: left;
+}
+
+
+.box-tab-a .bt h3{
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.box-tab-a .bt p{
+    font-size: 16px;
+    line-height: 22px;
+    color:#313131;
+}
+
+
+.box-tab-a1 ul{
+    overflow: hidden;
+    height: 102px;
+    margin-top: 48px;
+    margin-bottom:80px;
+}
+
+.box-tab-a1 ul li{
+    height:100px;
+    float: left;
+}
+
+.box-tab-a1 .bt{
+    margin-top: 58px;
+}
+
+.box-tab-a1 ul li .txt{
+    height: 85px;
+    background:#fff;
+    border:1px solid #e7e7e7;
+    border-radius: 16px;
+    font-size: 16px;
+    line-height: 22px;
+    font-family:"΢���ź�","Microsoft Yahei";
+    color:#313131;
+    padding-top: 15px;
+    float: left;
+}
+
+.box-tab-a1 ul li.s1{width: 183px;}
+.box-tab-a1 ul li.s1 .txt{width:156px;}
+.box-tab-a1 ul li.s1 .txt p{width:118px;padding-left: 17px;}
+
+.box-tab-a1 ul li.s2{width: 194px;}
+.box-tab-a1 ul li.s2 .txt{width: 166px;}
+.box-tab-a1 ul li.s2 .txt p{width:117px;padding-left: 24px;}
+
+.box-tab-a1 ul li.s3{width: 213px;}
+.box-tab-a1 ul li.s3 .txt{width: 186px;}
+.box-tab-a1 ul li.s3 .txt p,.box-tab-a1 ul li.s4 .txt p{width:150px;padding-left: 23px;}
+
+.box-tab-a1 ul li.s4 .txt{width: 185px;}
+.box-tab-a1 ul li.s4 {width: 18px;}
+
+
+
+.box-tab-a1 ul li em{
+    display:block;
+    width: 25px;
+    height: 100px;
+    background:url("../images/tab-ulbg.jpg"/*tpa=http://www.zhilangedu.cn/images/tab-ulbg.jpg*/) no-repeat center center;
+    float: right;
+}
+
+.box-tab-a2 .bt{
+    width: 524px;
+    padding-top: 93px;
+    border-top: 1px solid #e2e1e1;
+
+}
+
+.box-tab-a2{
+    background:url("../images/box-tab-a2.jpg"/*tpa=http://www.zhilangedu.cn/images/box-tab-a2.jpg*/) no-repeat right center;
+    padding-bottom: 98px;
+}
+
+.box-tab-a2 .bt em{
+    background-image:url("../images/tab-2.jpg"/*tpa=http://www.zhilangedu.cn/images/tab-2.jpg*/);
+    margin-right: 11px;
+}
+
+.box-tab-a3 .bt{
+    float: right;
+    width: 390px;
+}
+
+.box-tab-a3{
+    border-top: 1px solid #e2e1e1;
+    background:url("../images/box-tab-a3.jpg"/*tpa=http://www.zhilangedu.cn/images/box-tab-a3.jpg*/) no-repeat left;
+    overflow: hidden;
+}
+
+.box-tab-a3 .bt {
+    padding:128px  0 133px 0 ;
+}
+
+.box-tab-a3 .bt em{
+    background-image:url("../images/tab-3.jpg"/*tpa=http://www.zhilangedu.cn/images/tab-3.jpg*/);
+}
+
+.box-tab-a3 .bt p{
+    margin-top: 30px;
+}
+
+.box-tab-a4 .bt{
+    width: 415px;
+}
+
+.box-tab-a4 .bt em{
+    background-image:url("../images/tab-4.jpg"/*tpa=http://www.zhilangedu.cn/images/tab-4.jpg*/);
+    margin-right: 9px;
+}
+
+.box-tab-a4 .bt h3{
+    line-height: 110px;
+}
+
+.box-tab-a4{
+    border-top:1px solid #e2e1e1;
+    padding: 40px 0 64px 0;
+    background:url("../images/box-tab-a4.jpg"/*tpa=http://www.zhilangedu.cn/images/box-tab-a4.jpg*/) no-repeat 95% center;
+}
+
+/* �л���ҳ��B */
+
+.box-tab-b {
+    font-family:"΢���ź�","Microsoft Yahei";
+}
+
+.box-tab-b h3{
+    margin: 31px 0 53px 0;
+    text-align: center;
+    font-size: 24px;
+    color:#7f7f7f;
+    line-height: 59px;
+    padding-top: 17px;
+    background:url("../images/box-tab-h2bg.jpg"/*tpa=http://www.zhilangedu.cn/images/box-tab-h2bg.jpg*/) no-repeat 51.5% center;
+}
+
+.box-tab-b h3 em{
+    display: inline-block;*display: inline;*zoom: 1;
+    width: 93px;
+}
+
+.box-tab-b .td{
+    width: 406px;
+    height: 312px;
+    overflow: hidden;
+}
+
+.box-tab-b .td{
+    background:url("../images/tab-btr.jpg"/*tpa=http://www.zhilangedu.cn/images/tab-btr.jpg*/) no-repeat right center;
+    margin-bottom: 44px;
+}
+
+.box-tab-b .td2{
+    background:url("../images/tab-btr2.jpg"/*tpa=http://www.zhilangedu.cn/images/tab-btr2.jpg*/) no-repeat left center;
+}
+
+.box-tab-b ul{
+    border-bottom: 1px solid #dadada;
+    width: 413px;
+    margin-bottom: 76px;
+}
+
+.box-tab-b ul li{
+    overflow: hidden;
+    font-size: 16px;
+    line-height: 23px;
+    border-top:1px solid #dadada;
+    padding-left: 4px   !important;
+}
+
+.box-tab-b ul li.s1{
+    padding:20px 0 19px 0;
+}
+
+.box-tab-b ul li.s2{
+    padding:9px 0 10px 0;
+}
+
+.box-tab-b ul li.s3{
+    padding:5px 0 9px 0 ;
+}
+
+.box-tab-b ul li.s4{
+    padding:9px 0 13px 0;
+}
+
+.box-tab-b ul li p{
+    color:#04b487;
+}
+
+.box-tab-b ul li span{
+    float: right;
+    display: block;
+    width: 350px;
+}
+
+/* �л���ҳ��C */
+.zif{
+    color:#df5e7d !important;
+}
+
+.box-tab-c {
+    font-family:"΢���ź�","Microsoft Yahei";
+}
+
+.box-tab-c .news{
+    border-top:1px solid #dadada;
+    overflow: hidden;
+    padding: 27px 0 50px 73px;
+}
+
+.box-tab-c h3{
+    font-size: 24px;
+    color:#7f7f7f;
+    text-align: center;
+    margin:54px 0 49px 0;
+}
+
+.box-tab-c .content{
+    width: 380px;
+    padding: 138px 0 35px 0;
+    background:url("../images/tc-1.jpg"/*tpa=http://www.zhilangedu.cn/images/tc-1.jpg*/) no-repeat center top;
+    float: left;
+
+}
+
+.box-tab-c .content1{
+    margin-right: 65px;
+}
+
+.box-tab-c .content2{
+    background:url("../images/tc-2.jpg"/*tpa=http://www.zhilangedu.cn/images/tc-2.jpg*/) no-repeat center top;
+    margin-right: 56px;
+}
+
+.box-tab-c .content3{
+    background:url("../images/tc-3.jpg"/*tpa=http://www.zhilangedu.cn/images/tc-3.jpg*/) no-repeat center top;
+}
+
+.box-tab-c .content h4{
+    font-weight: normal;
+}
+
+.box-tab-c .content h4,.box-tab-c .content p{
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.box-tab-c .content p{
+    width: 208px;
+    margin:0 auto;
+    color:#a4a4a4;
+}
+
+.box-tab-c .content ul {
+    margin-top: 35px;
+    margin-left: 60px;
+}
+
+.box-tab-c .content li{
+    font-family:"΢���ź�","Microsoft Yahei";
+    font-size: 14px;
+    line-height: 22px;
+    overflow: hidden;
+}
+
+.box-tab-c .content .txt{
+    float: right;
+    width: 295px;
+}
+
+.box-tab-c .news ul{
+    float: left;
+    width: 287px;
+    margin-right: 156px;
+}
+
+.box-tab-c .news li{
+    font-size: 14px;
+    color:#04b487;
+    line-height: 22px;
+    overflow: hidden;
+    width: 263px;
+    background:url("../images/tab-libg.jpg"/*tpa=http://www.zhilangedu.cn/images/tab-libg.jpg*/) no-repeat left 6px; 
+    padding-left: 24px;
+}
+
+
+
+
+/* �û�ҳ�� */
+.box-user {
+    overflow: hidden;
+}
+
+.box-user .tit-a1{
+    padding-top: 54px;
+    margin-bottom: 35px;
+}
+
+.box-user .col-l{
+    width: 490px;
+}
+
+.box-user .col-r{
+    padding:87px 0 301px 0;
+    background:url("../images/user-bg.jpg"/*tpa=http://www.zhilangedu.cn/images/user-bg.jpg*/) no-repeat 16px bottom;
+    width: 360px;   
+
+}
+
+.box-login .login .sub{
+    margin-top: 14px;
+}
+
+.box-user .pic p{
+    font-size: 22px;
+    line-height: 18px;
+    margin-bottom: 6px;
+}
+
+.box-user .pic h3{
+    font-size: 28px;
+}
+
+
+
+/* �û���¼ */
+.box-login{
+    padding: 21px 0 59px 0;
+}
+
+.box-login p,.box-login .login span{
+    color:#313131;
+}
+
+.box-login p{
+    font-size: 16px;
+}
+
+.box-login .login p{
+    margin-bottom: 20px;
+}
+
+.box-login .login .sub{
+    text-align: center;
+}
+
+
+.box-login .login span{
+    margin-right: 9px;
+}
+
+.box-login .pic{
+    width: 393px;
+}
+
+.box-login .pic a{
+    display: inline-block;*display: inline;*zoom: 1;
+    width: 112px;
+    height: 40px;
+    line-height: 40px;
+    border:1px solid #7fd9c2;
+    color:#7fd9c2;
+    padding-left: 58px;
+    background:url("../images/z-pic1.png"/*tpa=http://www.zhilangedu.cn/images/z-pic1.png*/) no-repeat 31px center;
+    margin-right: 20px;
+}
+
+.box-login .pic a.s1{
+    padding-left: 77px;
+    width: 93px;
+    background:url("../images/z-pic2.png"/*tpa=http://www.zhilangedu.cn/images/z-pic2.png*/) no-repeat 36px center;
+}
+
+.box-login .pic p{
+    margin-bottom: 16px;
+}
+
+/* �û���Ȩ */
+.box-login1{
+    padding: 77px 0 100px 0;
+    background:url("../images/z-bg.jpg"/*tpa=http://www.zhilangedu.cn/images/z-bg.jpg*/) no-repeat center center;
+}
+
+
+.box-login1 .pic{
+    width: 405px;
+
+}
+
+.box-login1 .pic h3{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.box-login1 .pic p{
+
+}
+
+.box-login1 .login{
+    width: 355px;
+    line-height: 31px;
+}
+
+.box-login1 .pic .sub{
+    display: inline-block;*display: inline;*zoom: 1;
+    width: 214px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    color:#fff;
+    padding-left: 57px;
+    background:#04b487 url("../images/z-pic3.png"/*tpa=http://www.zhilangedu.cn/images/z-pic3.png*/) no-repeat 20px center;
+    margin:21px 0 ;
+}
+
+.box-login1 .pic p a{
+    color:#04b487;
+    text-decoration: underline;
+}
+
+
+.box-buscoo,.box-login1 p,.box-login,.user-table{
+    font-size: 14px;
+}
+
+
+/* ������� */
+.box-buscoo{
+    padding:3px 0 0 5px;
+}
+
+.box-buscoo p{
+    margin-bottom: 21px;
+}
+
+/* ���ͨ�� */
+.user-table b{
+    font-weight: normal;
+    color:#787878;
+}
+
+.user-table span{
+    /* width: 112px; */
+    /* display: inline-block;*display: inline;*zoom: 1; */
+    text-align: right;
+    /* margin-right: 15px; */
+    color:#A9A9A9;
+    display: none;
+}
+
+.user-table1 span{
+    width: 42px;
+}
+
+
+.user-table em{
+    margin-left: 12px;
+    color:#ea4949;
+    
+}
+
+.user-table input{
+    border:0;
+}
+
+.user-table .txt,.user-table textarea{
+    border:1px solid #e7e7e7;
+}
+
+.user-table .txt{
+    margin:5px 0 ;
+    height: 40px;
+    line-height: 40px\9;  
+    width: 315px;
+    padding-left: 5px; 
+}
+
+
+.user-table .txt2{
+    width: 210px;
+}
+
+.user-table .sub{
+    width: 99px;
+    height: 41px;
+    line-height: 41px;
+    background:#04b487;
+    margin-left: 6px;
+    display: inline-block;*display: inline;*zoom: 1;
+}
+
+.user-table .sub,.user-table .sub2{
+    color:#fff;
+    text-align: center;
+}
+
+.user-table .sub2{
+    display: inline-block;*display: inline;*zoom: 1;
+    width: 144px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 20px;
+    background:#04b487;
+    margin-top: 55px;
+}
+.user-table textarea{
+    width: 320px;
+    height: 142px;
+    margin-top: 5px;
+}
+.banner-case{
+	height: 350px;
+
+	background:url("../images/banner-case.jpg"/*tpa=http://www.zhilangedu.cn/images/banner-case.jpg*/) no-repeat center top;
+}
+
+
+/* yangd */
+.loginLabel{display: inline-block;border: 1px solid #e7e7e7;margin:5px 0;padding-left:5px;margin-bottom: 20px;}
+.loginLabel>*{vertical-align: middle;}
+.loginLabel .txt{margin:0;border:0 none;outline:none;padding:0 5px;}
+/* .loginLabel .txt:-webkit-autofill{background-color:transparent !important;} */
+.loginLabel .txt{box-shadow:0 0 0 20px #fff inset;}
+.loginFunc>*{vertical-align: middle;}
+.user-table .sub2:hover{opacity:0.9;filter:alpha(opacity=90);}
+.user-table span>i{font-style:normal;color:#04b487;padding: 0 3px;}
+.user-table .sub.readOnly{background-color: #D9D9DA;cursor: default;}
+input,textarea,select,.loginLabel{
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+/*注册*/
+.per-card p{
+	font-size:18px;
+	color:#484848;
+	margin-top:10px;
+	margin-bottom: 20px;
+}
+.per-card .per{
+	margin-right:73px;
+	padding-left: 50px;
+}
+.per-card .per img{margin-left:40px;}
+.per-card img{width:96px;height: 96px;}
+.per-card .p1{
+	background: url("../images/circle1.png"/*tpa=http://www.zhilangedu.cn/images/circle1.png*/) 0px 45px no-repeat;
+	background-size:20px;
+	padding-left:50px;
+}
+.per-card .p2{
+	background: url("../images/circle2.png"/*tpa=http://www.zhilangedu.cn/images/circle2.png*/) 0px 45px no-repeat;
+	background-size:20px;
+	padding-left: 50px;
+}
+.log-l{
+	width:60%;
+}
+.log-r{
+	width:40%;
+}
+.reg-l{
+	width:55%;
+	float: left;
+}
+.reg-r{
+	width:45%;
+	float: left;
+}
+.reg-l a{
+	display: block;
+	font-size: 18px;
+	color:#484848;
+	padding-left: 154px;
+	height:126px;
+	line-height: 126px;
+	cursor:pointer;
+}
+.reg-l a span{
+	border-bottom: 1px solid #c7c7c7;
+}
+.reg-l .a1{
+	background: url("../images/reg-per1.png"/*tpa=http://www.zhilangedu.cn/images/reg-per1.png*/) 0px center no-repeat;
+	display: inline-block;
+	margin-bottom: 32px;
+	margin-top:22px;
+	
+}
+.reg-l .a2{
+	background: url("../images/reg-per2.png"/*tpa=http://www.zhilangedu.cn/images/reg-per2.png*/) 0px center no-repeat;
+}
+.reg-r{
+	margin-top:76px;
+}
+/*使用帮助*/
+.help-con{
+	width:1000px;
+	margin:0px auto;
+}
+.help-con .nav-l li{
+	height:40px;
+	line-height:40px;
+	border-bottom: 1px solid #DCDCDC;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.help-con .nav-l a{
+	display: block;
+	width:260px;
+	font-size: 18px;
+	color:#333;
+	font-family: "微软雅黑";
+	text-indent: 80px;
+	background: url("../images/circle-2.png"/*tpa=http://www.zhilangedu.cn/images/circle-2.png*/) 45px center no-repeat;
+}
+.help-con .spec a{
+	text-indent: 46px;
+	background: url("../images/circle-1.png"/*tpa=http://www.zhilangedu.cn/images/circle-1.png*/) 20px center no-repeat;
+}
+.active2{
+	background: #eff2f5 url("../images/circle-2.png"/*tpa=http://www.zhilangedu.cn/images/circle-2.png*/) 45px center no-repeat;
+
+}
+.help-con .spec a.active{
+	text-indent: 46px;
+	background: #EFF2F5 url("../images/circle-1.png"/*tpa=http://www.zhilangedu.cn/images/circle-1.png*/) 20px center no-repeat;
+}
+.help-con h3.tit{
+	font-size: 24px;
+	font-family: "微软雅黑";
+	margin-top:25px;
+	font-weight: normal;
+	border-bottom:1px solid #DCDCDC;
+	padding-bottom: 10px;
+}
+.nav-l a:hover{
+	background: #eff2f5 url("../images/circle-2.png"/*tpa=http://www.zhilangedu.cn/images/circle-2.png*/) 45px center no-repeat;
+}
+.nav-l li.spec a:hover{
+	text-indent: 46px;
+	background: #EFF2F5 url("../images/circle-1.png"/*tpa=http://www.zhilangedu.cn/images/circle-1.png*/) 20px center no-repeat;
+}
+.con_r{
+	width:650px;
+}
+.con_r .list-1 li{
+	float: left;
+	margin-right:65px;
+}
+.con_r .title{
+	font-size: 24px;
+	font-family: "微软雅黑";
+	font-weight: normal;
+	height:90px;
+	line-height: 90px;
+}
+.con_r .tool-Load{
+	font-size: 18px;
+	color:#333;
+	font-family: "微软雅黑";
+}
+.con_r .tool-Load .tip span{
+	color:#f640a1;
+}
+.con_r .load-con li{
+	float: left;
+	font-size: 16px;
+}
+.con_r .load-con ul{
+	margin-top:20px;
+}
+.con_r .load-con .p1{
+	font-size: 18px;
+	color:#434343;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.con_r .load-con ul li:nth-child(2){
+	width:458px;
+	text-indent: 15px;
+}
+.con_r .load-con a{
+	display: inline-block;
+	width:96px;
+	height:36px;
+	border:1px solid #04b487;
+	background: #04b487;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 36px;
+	color:#fff;
+	cursor:pointer;
+	margin-top:10px;
+}
+.con_r .hotQuestion li{
+	width:290px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow:hidden;
+	background: url("../images/circle-3.png"/*tpa=http://www.zhilangedu.cn/images/circle-3.png*/) 0px center no-repeat;
+	padding-left: 10px;
+	float: left;
+	margin-bottom: 13px;
+}
+.con_r .hotQuestion li:nth-child(even){
+	margin-left:20px;
+}
+.con_r .hotQuestion li a{
+	font-size: 16px;
+}
+.con_r .hotQuestion li a span{
+	color:#3EABE7;
+}
+/*注册相关问题*/
+.con_r .reg-Means div h3{
+	font-size: 22px;
+	text-align: center;
+	padding-bottom:10px;
+}
+.con_r .reg-Means p{
+	width:600px;
+	font-size: 16px;
+	margin-top:10px;
+}
+.con_r .reg-Means p.p1{
+	background: url("../images/wen.png"/*tpa=http://www.zhilangedu.cn/images/wen.png*/) 0px 0px no-repeat;
+	padding-left: 45px;
+	margin-bottom: 20px;
+	padding-bottom: 5px;
+}
+.con_r .reg-Means p.p2{
+	background: url("../images/da.png"/*tpa=http://www.zhilangedu.cn/images/da.png*/) 0px 0px no-repeat;
+	padding-left: 45px;
+	padding-bottom: 5px;
+}
+.con_r .regCons li{
+	background: url("../images/circle-3.png"/*tpa=http://www.zhilangedu.cn/images/circle-3.png*/) 0px center no-repeat;
+	padding-left: 10px;
+	margin-bottom: 13px;
+	font-size: 16px;
+}
+.con_r .regCons a{
+	color:#51799e;
+}
+.con_r .page-btn{float: right;}
+.con_r .page-btn ul li{float: left;background: none;}
+.con_r .page-btn a{
+	display: inline-block;
+	width:20px;
+	height:20px;
+	text-align: center;
+	line-height: 20px;
+	color:#fff;
+	border:1px solid #ccc;
+	color:#000;
+}
+.con_r .page-btn li.active a{
+	width:22px;
+	background:#1e92cf;
+	height:22px;
+	text-align: center;
+	line-height: 22px;
+	color:#fff;
+}
+.frame{
+	width: 100%;
+	height:400px;
+	overflow-x: hidden;
+}
+.con_l{margin-right:60px;}
+
+
+.regisStepImg{width: 150px;display: inline-block;vertical-align: middle;}
+.regisStepImg~strong{border-bottom:none;}
+.regisStepImg2{display: none;}
+
+
+
+

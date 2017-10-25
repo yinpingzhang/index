@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+html,body,div,dl,dd,dt,h1,h2,h3,h4,h5,h6,hr,a,ul,li,ol,p,pre,table,th,td,form,button,input,select,textarea {
+    margin: 0;
+    padding: 0;
+}
+/*浮动 start*/
+.left{float:left;}
+.right{float:right;}
+.clearfix:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.clearfix{zoom:1;}
+/*浮动 end*/
+li,ol{list-style: none;}
+.ellipsis{text-overflow:ellipsis;overflow: hidden; white-space:nowrap;}
+img{border:none;vertical-align:top;}
+a{text-decoration:none;}
+.border-radius5px{
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;}
+.border-radius10px{
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;}
+.border-radius50p{
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;}
+
+
+body{background:#fff;font:16px/1.5 "microsoft yahei";min-width: 1200px;}
+.wrap{width: 1200px;margin: 0 auto;}
